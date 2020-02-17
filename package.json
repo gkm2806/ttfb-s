@@ -1,0 +1,30 @@
+{
+	"name": "ttfb-s",
+	"version": "1.0.0",
+	"description": "The Teenager Fullstack Bootstrap - Server Edition",
+	"main": "index.js",
+	"scripts": {
+		"dev": "nodemon --exec babel-node src/index.js",
+		"start": "babel-node src/index.js"
+	},
+	"dependencies": {
+		"@babel/cli": "^7.4.4",
+		"@babel/core": "^7.4.5",
+		"@babel/node": "^7.4.5",
+		"@babel/polyfill": "^7.4.4",
+		"@babel/preset-env": "^7.4.5",
+		"bcryptjs": "^2.4.3",
+		"body-parser": "^1.19.0",
+		"cors": "^2.8.5",
+		"cuid": "^2.1.6",
+		"dotenv": "^8.2.0",
+		"express": "^4.16.4",
+		"jsonwebtoken": "^8.5.1",
+		"mongoose": "^5.4.19"
+	},
+	"devDependencies": {
+		"nodemon": "^1.18.11"
+	},
+	"author": "gkm2806",
+	"license": "ISC"
+}

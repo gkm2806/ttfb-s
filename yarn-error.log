@@ -1,0 +1,67 @@
+Arguments: 
+  C:\Program Files\nodejs\node.exe C:\Program Files (x86)\Yarn\bin\yarn.js add
+
+PATH: 
+  C:\Program Files (x86)\Common Files\Oracle\Java\javapath;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Windows\System32\OpenSSH\;C:\Program Files\Git\cmd;C:\Program Files\nodejs\;C:\Program Files (x86)\NVIDIA Corporation\PhysX\Common;C:\Program Files\NVIDIA Corporation\NVIDIA NvDLISR;C:\Program Files\PuTTY\;C:\Program Files (x86)\Yarn\bin\;C:\Users\gkm\AppData\Local\Programs\Python\Python37-32\Scripts\;C:\Users\gkm\AppData\Local\Programs\Python\Python37-32\;C:\Users\gkm\AppData\Local\Microsoft\WindowsApps;;C:\Users\gkm\AppData\Local\Programs\Microsoft VS Code\bin;C:\Users\gkm\AppData\Roaming\npm;C:\Program Files\heroku\bin;C:\Users\gkm\AppData\Local\Yarn\bin
+
+Yarn version: 
+  1.21.1
+
+Node version: 
+  10.16.0
+
+Platform: 
+  win32 x64
+
+Trace: 
+  SyntaxError: C:\Users\gkm\Documents\jeraflix-back\package.json: Unexpected token } in JSON at position 217
+      at JSON.parse (<anonymous>)
+      at C:\Program Files (x86)\Yarn\lib\cli.js:1625:59
+      at Generator.next (<anonymous>)
+      at step (C:\Program Files (x86)\Yarn\lib\cli.js:310:30)
+      at C:\Program Files (x86)\Yarn\lib\cli.js:321:13
+
+npm manifest: 
+  {
+    "name": "jeraflix-back",
+    "version": "1.0.0",
+    "description": "Backend com a base de usuarios da jeraflix",
+    "main": "index.js",
+    "scripts": {
+      "test": "echo \"Error: no test specified\" && exit 1",
+      
+    },
+    
+    "dependencies": {
+      "@babel/cli": "^7.4.4",
+      "@babel/node": "^7.4.5",
+      "@babel/polyfill": "^7.4.4",
+      "@babel/core": "^7.4.5",
+      "@babel/preset-env": "^7.4.5",
+      "anychart": "~8.3.0",
+      "axios": "^0.19.0",
+      "bcrypt": "^3.0.6",
+      "body-parser": "^1.19.0",
+      "cors": "^2.8.5",
+      "cuid": "^2.1.6",
+      "dotenv": "^7.0.0",
+      "express": "^4.16.4",
+      "jsonwebtoken": "^8.5.1",
+      "moment": "^2.24.0",
+      "mongoose": "^5.4.19",
+      "node-schedule": "^1.3.2",
+      "request": "^2.88.0",
+      "ssl-root-cas": "^1.3.1"
+    },
+    "devDependencies": {
+      "nodemon": "^1.18.11"
+    },
+    "author": "gkm2806",
+    "license": "ISC"
+  }
+
+yarn manifest: 
+  No manifest
+
+Lockfile: 
+  No lockfile
