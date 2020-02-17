@@ -14,4 +14,8 @@ npm start
 ```
 
 ## Usage
-So, to use it properly you'll need an .env with the DATABASE_URL variable assign with your cluster url.
+So, to use it properly you'll need an .env with the DATABASE_URL variable assign with your cluster url. It can be easelly find on yours https://cloud.mongodb.com/
+
+```bash
+DATABASE_URL = mongodb+srv://<username>:<password>@{{YOURCLUSTER}}.mongodb.net/test?retryWrites=true&w=majority
+```
