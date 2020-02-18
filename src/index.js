@@ -4,7 +4,7 @@ import bodyParser from "body-parser"
 import './database/mongoose'
 import "dotenv/config"
 
-import {ModelRouter as potatoRouter} from "./router/potatoRouter"
+import {ModelRouter as potatoRouter} from "./router/PotatoRouter"
 
 const port = process.env.PORT || 4000
 
